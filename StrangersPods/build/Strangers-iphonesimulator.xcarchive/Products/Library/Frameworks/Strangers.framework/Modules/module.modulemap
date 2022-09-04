@@ -1,0 +1,11 @@
+framework module Strangers {
+  umbrella header "Strangers.h"
+
+  export *
+  module * { export * }
+}
+
+module Strangers.Swift {
+    header "Strangers-Swift.h"
+    requires objc
+}
